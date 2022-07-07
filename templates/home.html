@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Welcome to the test project for deploying on Heroku</h1>
+    <h2>Check out movies <a href="{% url 'movies:index' %}">here</a></h2>
+    <h3>For developers: check APIs <a href="/api/movies/">here</a></h3>
+{% endblock %}
